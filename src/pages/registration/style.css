@@ -8,6 +8,13 @@
 .text-field{
     margin: 15px 0!important;
 }
+.text-field input{
+    color: #11175de8;
+    font-family:var(--nunito) ;
+    border-radius: 8.60027px;
+    font-weight: 600;
+    font-size:18px ;
+}
 .nunito{
     font-family: var(--nunito);
 }

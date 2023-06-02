@@ -12,10 +12,10 @@ const Registration = () => {
       <div className='registration'>
         <Container fixed>
           <Grid container justifyContent={"space-between"} alignItems={"center"}>
-              <Grid className="bg" item xs={4.8}>
+              <Grid className="bg" item xs={5.3}>
                   <Forms/>
               </Grid>
-              <Grid className="bg" item xs={6}>
+              <Grid className="bg" item xs={6.5}>
                  <Signup/>
               </Grid>
           </Grid>
