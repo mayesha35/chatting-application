@@ -1,0 +1,53 @@
+.registration{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgWhite-color);
+}
+.text-field{
+    margin: 15px 0!important;
+}
+.nunito{
+    font-family: var(--nunito);
+}
+.open-sans{
+    font-family: var(--open-sans);
+}
+.registration h1,.registration h3,.registration .text-field,.reg-btn button{
+    font-family: var(--nunito)
+}
+.registration h1{
+     color: #11175D;
+     font-size:30px ;
+     font-weight: 700;
+}
+.registration h3{
+    color: rgb(0, 0, 0,0.5);
+    font-size:20px ;
+    font-weight: 400;
+    margin: 18px 0px 22px;
+}
+.reg-btn button{
+    padding: 10px 50px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin: 20px 0;
+}
+.reg-btn button:hover{
+    background-color: #3c15c9f4;
+}
+.registration p{
+    color: #03014C;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--open-sans);
+    text-align: center;
+    margin-top: 10px;
+}
+.registration p span{
+    color: var(--signInUp-color);
+}

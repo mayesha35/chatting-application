@@ -1,7 +1,11 @@
+import Registration from "./pages/registration";
+
 function App() {
-  return (<>
-  <h1>Hello</h1>
-  </>);
+  return (
+  <>
+    <Registration/> 
+  </>
+  );
 }
 
 export default App;
